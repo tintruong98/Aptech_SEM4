@@ -1,0 +1,112 @@
+﻿@model App_WebRuou.Models.FeedBack
+
+@{
+    ViewData["Title"] = "Danhgia";
+}
+<div class="container">
+    <div class="page-content">
+        <div class="gaming-library">
+            <table width="100%" cellpadding="5">
+                <tr>
+                    <td width="25%">
+                        <img src="~/@ViewBag.urlimage" width="250" height="300" alt="">
+                    </td>
+                    <td width="75%">
+                        <center>
+                            <div class="heading-section">
+                                <li><a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:25px">Order completed</a></li>
+                                <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px">Thank you for shopping at Wine Gourmet</a></li>
+                            </div>
+                        </center>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-12">
+                                <form asp-action="Danhgia" enctype="multipart/form-data" method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <input asp-for="Id" class="form-control" hidden />
+                                    <input asp-for="IdKhachHang" value="@ViewBag.Id_" class="form-control" hidden />
+                                    <input asp-for="IdDonHang" value="@ViewBag.iddonhang" class="form-control" hidden />
+                                    <input asp-for="IdSanPham" value="@ViewBag.idsanpham" class="form-control" hidden />
+                                    <input asp-for="ThoiGianFeed" value="" class="form-control" hidden />
+                                    <input asp-for="Evaluate" value="@ViewBag.evaluate" class="form-control" hidden />
+                                    <input name="urlimage" value="@ViewBag.urlimage" hidden />
+                                    <input name="evaluate1" value="@ViewBag.evaluate1" hidden />
+                                    <input name="evaluate2" value="@ViewBag.evaluate2" hidden />
+                                    <input name="evaluate3" value="@ViewBag.evaluate3" hidden />
+                                    <input name="evaluate4" value="@ViewBag.evaluate4" hidden />
+                                    <input name="evaluate5" value="@ViewBag.evaluate5" hidden />
+                                    <div class="form-group">
+                                        <label style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px" class=" control-label">Evaluate</label>
+                                        <center>
+                                            @if (ViewBag.evaluate1=="1")
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="0",evaluate2="0",evaluate3="0",evaluate4="0",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:yellow"></i></a>
+                                            }
+                                            else
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="0",evaluate3="0",evaluate4="0",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:dimgray"></i></a>
+                                            }
+                                            @if (ViewBag.evaluate2 == "1")
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="0",evaluate3="0",evaluate4="0",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:yellow"></i></a>
+                                            }
+                                            else
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="1",evaluate3="0",evaluate4="0",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:dimgray"></i></a>
+                                            }
+                                            @if (ViewBag.evaluate3 == "1")
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="1",evaluate3="0",evaluate4="0",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:yellow"></i></a>
+                                            }
+                                            else
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="1",evaluate3="1",evaluate4="0",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:dimgray"></i></a>
+                                            }
+                                            @if (ViewBag.evaluate4 == "1")
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="1",evaluate3="1",evaluate4="0",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:yellow"></i></a>
+                                            }
+                                            else
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="1",evaluate3="1",evaluate4="1",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:dimgray"></i></a>
+                                            }
+                                            @if (ViewBag.evaluate5 == "1")
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="1",evaluate3="1",evaluate4="1",evaluate5="0"})"><i class="fa fa-star fa-2xl" style="color:yellow"></i></a>
+                                            }
+                                            else
+                                            {
+                                                <a href="@Url.Action("Danhgia", "KhachHang", new {iddonhang=ViewBag.iddonhang,idsanpham=ViewBag.idsanpham,urlimage=ViewBag.urlimage,evaluate1="1",evaluate2="1",evaluate3="1",evaluate4="1",evaluate5="1"})"><i class="fa fa-star fa-2xl" style="color:dimgray"></i></a>
+                                            }
+                                        </center>
+                                    </div>
+                                    <div class="form-group">
+                                        <label style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px" class=" control-label">Comment</label>
+                                        <textarea class="form-control" asp-for="Contents" style="color:black ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px"></textarea>
+                                        <span asp-validation-for="Contents" class="text-danger"></span>
+                                    </div>
+                                    <center>
+                                        <div class="form-group">
+                                            <input type="submit" value="Accept" class="btn btn-secondary btn-sm" />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a class="btn btn-secondary btn-sm" href="@Url.Action("XemChiTieDonHang", "KhachHang", new {  varLocal=ViewBag.iddonhang,trangthaiGH=2})">Back</a>
+                                        </div>
+                                    </center>
+                                </form>
+                            </div>
+                            <div class="text-center w-100">
+                                <br />
+                                <h5 style="color:#ec6090">@ViewBag.msg</h5>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

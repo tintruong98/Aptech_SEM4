@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Admin_WebRuou.Models.DetailsDonHang>
+
+@{
+    ViewData["Title"] = "XemChiTieDonHang";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-content">
+                <div class="gaming-library">
+                    <div class="col-lg-12">
+                        <div class="heading-section">
+                                <a href="@Url.Action("XemDonHang", "KhachHang", new {trangthaiGH = ViewBag.ttgh,idkhachhang = ViewBag.idkhachhang, username=ViewBag.username })">
+                                <span class="btn btn-success btn-sm" style="font-size:14px">Back</span>
+                                </a>
+                            <br />
+                            <h4><em>Products @ViewBag.username </em>bought</h4>
+                        </div>
+                        @foreach (var item in Model)
+                        {
+                            <div>
+                                <ul>
+                                    <a style="color:white; font-size:large">Total order value:</a>
+                                    <li><a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large">@ViewBag.Tonggiatri VND</a></li>
+                                    <a style="color:yellow; font-size:14px">@ViewBag.trangthaiGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                    @if (ViewBag.evaluate == "OK")
+                                    {
+                                        <li><div class="main-button"><a href="@Url.Action("XemDanhgia", "KhachHang", new {iddonhang = item.IdDonHang, idsanpham = item.IdSanPham, urlimage=item.UrlImage,idkhachhang = ViewBag.idkhachhang, username=ViewBag.username})">Evaluate</a></div></li>
+                                    }
+                                </ul>
+                            </div>
+                            <br />
+                            <div>
+                                <center>
+                                    <ul>
+                                        <li><img src="~/@item.UrlImage" width="300" height="330" alt=""></li>
+                                    </ul>
+                                </center>
+                            </div>
+                            <div>
+                                <ul>
+                                    <h5 style="color:white">@item.Name</h5>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:small">@item.Description</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <a style="color:white; font-size:large">Quantity:</a>
+                                    <li><a style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:medium">@item.SoLuong</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <a style="color:white; font-size:large">Unit price:</a>
+                                    <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large">@item.GiaTien.ToString("N").Substring(0,@item.GiaTien.ToString("N").Length-3) VND</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <a style="color:white; font-size:large">Into money:</a>
+                                    <li><a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large">@item.ThanhTien.ToString("N").Substring(0,@item.ThanhTien.ToString("N").Length-3) VND</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <a style="color:white; font-size:large">Promotion:</a>
+                                    <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:medium">@item.Promotion.ToString() %</a></li>
+                                </ul>
+                            </div>
+                            <br />
+                            <br />
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

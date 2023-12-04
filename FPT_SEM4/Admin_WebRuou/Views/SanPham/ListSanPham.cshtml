@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Admin_WebRuou.Models.SanPham>
+
+@{
+    ViewData["Title"] = "ListSanPham";
+}
+<div class="container">
+    <div class="page-content">
+        <div class="heading-section">
+            <h4>List of products</h4>
+        </div>
+        <!-------------------------->
+        <div>
+            <form asp-action="ListSanPham" asp-controller="SanPham">
+                <a href="@Url.Action("Administration", "Home")">
+                    <span class="btn btn-success btn-sm" style="font-size:14px">Back</span>
+                </a>
+                <a href="@Url.Action("Create", "SanPham")">
+                    <span class="btn btn-primary btn-sm" style="font-size:14px">Create new</span>
+                </a>
+                <input type="number" placeholder="by Id" name="idsanpham" style="font-size:14px;width:60px" />
+                <input type="text" placeholder="by name" name="varLocal" style="font-size:14px" />
+                <input type="submit" value="Search" class="btn btn-info btn-sm" style="font-size:14px" />
+            </form>
+        </div>
+        <br />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <a style="font-size:14px;color:white">Id</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Name</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">UrlImage</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Price</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Promotion</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Quantity</a>
+                    </th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Id</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Name</a>
+                        </td>
+                        <td width="7%">
+                            <img src="~/@item.UrlImage" height="80" />
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Price</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Promotion</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Soluong</a>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Edit", "SanPham", new {varLocal = item.Id })">
+                                <span class="btn btn-warning btn-sm" style="font-size:14px">Edit</span>
+                            </a>
+                            <a href="@Url.Action("Delete", "SanPham", new {varLocal = item.Id })">
+                                <span class="btn btn-danger btn-sm" style="font-size:14px">Delete</span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <!-------------------------->
+    </div>
+</div>

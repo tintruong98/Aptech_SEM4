@@ -1,0 +1,506 @@
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\web.config
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\appsettings.Development.json
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\appsettings.json
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.exe
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.deps.json
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.runtimeconfig.json
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.runtimeconfig.dev.json
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.pdb
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.Views.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.Views.pdb
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Humanizer.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Net.Http.Formatting.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.AttributedModel.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Convention.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Hosting.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Runtime.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.TypedParts.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Data.OleDb.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Drawing.Common.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.AccessControl.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.Permissions.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Windows.Extensions.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.AssemblyReference.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.GeneratedMSBuildEditorConfig.editorconfig
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.AssemblyInfoInputs.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.AssemblyInfo.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.CoreCompileInputs.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.MvcApplicationPartsAssemblyInfo.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorAssemblyInfo.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorAssemblyInfo.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\scopedcss\bundle\App_WebRuou.styles.css
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\App_WebRuou.StaticWebAssets.Manifest.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\App_WebRuou.StaticWebAssets.Pack.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.App_WebRuou.Microsoft.AspNetCore.StaticWebAssets.props
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.build.App_WebRuou.props
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.buildMultiTargeting.App_WebRuou.props
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.buildTransitive.App_WebRuou.props
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.TagHelpers.input.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.TagHelpers.output.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorCoreGenerate.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\DanhgiaPartialView.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\DonHangPartialView.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Error.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\IndexPartialView.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Xemdonmuanhieu.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\AddToCart.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ChangeInfo.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ChangePassword.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Danhgia.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\DetailsSanPham.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ForgotPassword.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\HuyDonHang.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ListSanPham.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Login.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\NhanXetKhachHang.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Registration.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ResetPassword.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\SanPhamLike.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ViewCart.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemChiTieDonHang.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemDanhgia.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemDonHang.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorTargetAssemblyInfo.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorTargetAssemblyInfo.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.Views.pdb
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.CopyComplete
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.dll
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\refint\App_WebRuou.dll
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.pdb
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.genruntimeconfig.cache
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\ref\App_WebRuou.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\web.config
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\appsettings.Development.json
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\appsettings.json
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.exe
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.deps.json
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.runtimeconfig.json
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.runtimeconfig.dev.json
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.pdb
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.Views.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.Views.pdb
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\BraintreeHttp-Dotnet.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Humanizer.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Net.Http.Formatting.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.Razor.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\dotnet-aspnet-codegenerator-design.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.Win32.SystemEvents.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Newtonsoft.Json.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Source.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.AttributedModel.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Convention.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Hosting.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Runtime.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.TypedParts.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Data.OleDb.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Diagnostics.PerformanceCounter.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Drawing.Common.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.AccessControl.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.Permissions.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Windows.Extensions.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.AssemblyReference.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.GeneratedMSBuildEditorConfig.editorconfig
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.AssemblyInfoInputs.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.AssemblyInfo.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.CoreCompileInputs.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.MvcApplicationPartsAssemblyInfo.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorAssemblyInfo.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorAssemblyInfo.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\scopedcss\bundle\App_WebRuou.styles.css
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\App_WebRuou.StaticWebAssets.Manifest.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\App_WebRuou.StaticWebAssets.Pack.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.App_WebRuou.Microsoft.AspNetCore.StaticWebAssets.props
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.build.App_WebRuou.props
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.buildMultiTargeting.App_WebRuou.props
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.buildTransitive.App_WebRuou.props
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.TagHelpers.input.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.TagHelpers.output.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorCoreGenerate.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\DanhgiaPartialView.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\DonHangPartialView.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Error.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\IndexPartialView.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Xemdonmuanhieu.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\AddToCart.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ChangeInfo.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ChangePassword.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Danhgia.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\DetailsSanPham.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ForgotPassword.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\HuyDonHang.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ListSanPham.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Login.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\NhanXetKhachHang.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Payment.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Registration.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ResetPassword.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\SanPhamLike.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ViewCart.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemChiTieDonHang.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemDanhgia.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemDonHang.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorTargetAssemblyInfo.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorTargetAssemblyInfo.cs
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.Views.pdb
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.CopyComplete
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.dll
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\refint\App_WebRuou.dll
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.pdb
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.genruntimeconfig.cache
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\ref\App_WebRuou.dll
+E:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Payment\Index.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\BraintreeHttp-Dotnet.dll
+C:\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Source.dll
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Payment\Index.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\PayPal.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\PhuongThucThanhToan.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Momo.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\COD.cshtml.g.cs
+C:\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Zalo.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\web.config
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\appsettings.Development.json
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\appsettings.json
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.exe
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.deps.json
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.runtimeconfig.json
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.runtimeconfig.dev.json
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.pdb
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.Views.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\App_WebRuou.Views.pdb
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\BraintreeHttp-Dotnet.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Humanizer.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Net.Http.Formatting.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\Source.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.AttributedModel.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Convention.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Hosting.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.Runtime.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Composition.TypedParts.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Data.OleDb.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Drawing.Common.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.AccessControl.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Security.Permissions.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\System.Windows.Extensions.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.AssemblyInfo.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorAssemblyInfo.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorAssemblyInfo.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\scopedcss\bundle\App_WebRuou.styles.css
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\App_WebRuou.StaticWebAssets.Manifest.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\App_WebRuou.StaticWebAssets.Pack.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.App_WebRuou.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.build.App_WebRuou.props
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.buildMultiTargeting.App_WebRuou.props
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\staticwebassets\msbuild.buildTransitive.App_WebRuou.props
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.TagHelpers.input.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.TagHelpers.output.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorCoreGenerate.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\DanhgiaPartialView.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\DonHangPartialView.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Error.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\IndexPartialView.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Profile.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Home\Xemdonmuanhieu.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\AddToCart.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ChangeInfo.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ChangePassword.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\COD.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Danhgia.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\DetailsSanPham.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ForgotPassword.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\HuyDonHang.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ListSanPham.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Login.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Momo.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\NhanXetKhachHang.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\PayPal.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\PhuongThucThanhToan.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Registration.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ResetPassword.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\SanPhamLike.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\ViewCart.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemChiTieDonHang.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemDanhgia.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\XemDonHang.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\KhachHang\Zalo.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Payment\Index.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorTargetAssemblyInfo.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.RazorTargetAssemblyInfo.cs
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.Views.pdb
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.csproj.CopyComplete
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\refint\App_WebRuou.dll
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.pdb
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\App_WebRuou.genruntimeconfig.cache
+C:\Users\PC\Documents\Zalo Received Files\FPT_SEM4\App_WebRuou\obj\Release\net5.0\ref\App_WebRuou.dll

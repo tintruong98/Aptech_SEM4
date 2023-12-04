@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Admin_WebRuou.Models.SanPham>
+
+@{
+    ViewData["Title"] = "ThongkeSanPham";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-content">
+                <div class="gaming-library">
+                    <div class="col-lg-12">
+                        <center>
+                            <div class="heading-section">
+                                <h4>List of product quantities</h4>
+                            </div>
+                        </center>
+                        <table width="70%" cellpadding="5" align="center">
+                            <tr style="background-color:gray">
+                                <th>
+                                    <div>
+                                        <ul>
+                                            <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:16px">Numerical order</a></li>
+                                        </ul>
+                                    </div>
+                                </th>
+                                <th>
+                                    <div>
+                                        <ul>
+                                            <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:16px">Product code</a></li>
+                                        </ul>
+                                    </div>
+                                </th>
+                                <th>
+                                    <div>
+                                        <ul>
+                                            <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:16px">Product's name</a></li>
+                                        </ul>
+                                    </div>
+                                </th>
+                                <th>
+                                    <div>
+                                        <ui>
+                                            <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:16px">Inventory</a></li>
+                                        </ui>
+                                    </div>
+                                </th>
+                            </tr>
+                            @if (true)
+                            {
+                                int dem = 0;
+                                foreach (var item in Model)
+                                {
+                                    dem++;
+                                    <tr>
+                                        <td align="center">
+                                            <div>
+                                                <ui>
+                                                    <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px">@dem</a></li>
+                                                </ui>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <ui>
+                                                    <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px">@item.Id</a></li>
+                                                </ui>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <ui>
+                                                    <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px">@item.Name</a></li>
+                                                </ui>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div>
+                                                <ul>
+                                                    <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px">@item.Soluong.ToString("N").Substring(0,@item.Soluong.ToString("N").Length-3)</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

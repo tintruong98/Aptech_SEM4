@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Administration";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-content">
+                <!-- ***** Banner Start ***** -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="main-profile ">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="~/Images/wine.png" alt="" style="border-radius: 23px;">
+                                </div>
+                                <div class="col-lg-4 align-self-center">
+                                    <ul>
+                                        <li><a href="@Url.Action("ListUser", "User")" style=" color:gainsboro">Admin account</a></li>
+                                        <li><a href="@Url.Action("ListKhachHang", "KhachHang")" style="color:gainsboro">Customer account</a></li>
+                                        <li><a href="@Url.Action("ListSanPham", "SanPham")" style="color:gainsboro">Product Management</a></li>
+                                        <li><a href="@Url.Action("ListDonhang", "DonHang")" style="color:gainsboro">Order Management</a></li>
+                                        <li><a href="@Url.Action("ListThuongHieu", "ThuongHieu")" style="color:gainsboro">Brand Management</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 align-self-center">
+                                    <ul>
+                                        <li><a href="@Url.Action("ThongkeSanPham", "SanPham")" style="color:#ec6090">Products in stock</a></li>
+                                        <li><a href="@Url.Action("ThongkeSPBanra", "KhachHang")" style="color:#ec6090">Revenue Products sold</a></li>
+                                        <li><a href="@Url.Action("SanPhamBanNhieu", "SanPham")" style="color:#ec6090">Most sold products</a></li>
+                                        <li><a href="@Url.Action("SanPhamYeuThich", "SanPham")" style="color:#ec6090">Favorite products</a></li>
+                                        <li><a href="@Url.Action("NhanXetKhachHang", "KhachHang")" style="color:#ec6090">Customer Reviews</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Banner End ***** -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<!-- Bootstrap core JavaScript -->
+<script src="~/vendor/jquery/jquery.min.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="~/assets/js/isotope.min.js"></script>
+<script src="~/assets/js/owl-carousel.js"></script>
+<script src="~/assets/js/tabs.js"></script>
+<script src="~/assets/js/popup.js"></script>
+<script src="~/assets/js/custom.js"></script>
+
+
+

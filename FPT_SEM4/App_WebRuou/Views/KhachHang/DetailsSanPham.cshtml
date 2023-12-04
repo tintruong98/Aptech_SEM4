@@ -1,0 +1,12 @@
+﻿@model App_WebRuou.Models.PartialView2
+@{
+    ViewData["Title"] = "DetailsSanPham";
+}
+<div class="most-popular">
+    <div class="row">
+        <div class="col-lg-12">
+            @await Html.PartialAsync("SanPhamLike",Model.pv1);
+            @await Html.PartialAsync("NhanXetKhachHang",Model.pv2.ToList());
+        </div>
+    </div>
+</div>

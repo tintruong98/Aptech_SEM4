@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fpt.aptech.webruou"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="31"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.WebRuou"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="fpt.aptech.webruou.CancelOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.AddToCartActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.ListDetailsDonHangActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.ListDonHangActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.ForgotPasswordKhachHangActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.ResetPasswordKhachHangActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.AddKhachHangActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.ChangeInformationKhachHangActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.ChangePasswordKhachHangActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.LoginKhachHangActivity"
+            android:exported="false" />
+        <activity
+            android:name="fpt.aptech.webruou.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:resource="@xml/network_security" />
+        </activity>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="fpt.aptech.webruou.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

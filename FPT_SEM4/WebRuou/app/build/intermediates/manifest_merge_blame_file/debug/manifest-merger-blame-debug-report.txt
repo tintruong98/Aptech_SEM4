@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="fpt.aptech.webruou"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:8:22-78
+15
+16    <application
+16-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:10:5-68:19
+17        android:allowBackup="true"
+17-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.8.0] C:\Users\anhth\.gradle\caches\transforms-3\f8ca33f57cc610a0b1ed31d0cc4084bb\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:12:9-65
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:13:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:14:9-43
+24        android:label="@string/app_name"
+24-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:15:9-41
+25        android:networkSecurityConfig="@xml/network_security"
+25-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:16:9-62
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:17:9-54
+27        android:supportsRtl="true"
+27-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:18:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.WebRuou"
+29-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:19:9-45
+30        android:usesCleartextTraffic="true" >
+30-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:20:9-44
+31        <activity
+31-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:22:9-24:40
+32            android:name="fpt.aptech.webruou.CancelOrderActivity"
+32-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:23:13-48
+33            android:exported="false" />
+33-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:24:13-37
+34        <activity
+34-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:25:9-27:40
+35            android:name="fpt.aptech.webruou.PaymentActivity"
+35-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:26:13-44
+36            android:exported="false" />
+36-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:27:13-37
+37        <activity
+37-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:28:9-30:40
+38            android:name="fpt.aptech.webruou.AddToCartActivity"
+38-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:29:13-46
+39            android:exported="false" />
+39-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:30:13-37
+40        <activity
+40-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:31:9-33:40
+41            android:name="fpt.aptech.webruou.ListDetailsDonHangActivity"
+41-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:32:13-55
+42            android:exported="false" />
+42-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:33:13-37
+43        <activity
+43-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:34:9-36:40
+44            android:name="fpt.aptech.webruou.ListDonHangActivity"
+44-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:35:13-48
+45            android:exported="false" />
+45-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:36:13-37
+46        <activity
+46-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:37:9-39:40
+47            android:name="fpt.aptech.webruou.ForgotPasswordKhachHangActivity"
+47-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:38:13-60
+48            android:exported="false" />
+48-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:39:13-37
+49        <activity
+49-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:40:9-42:40
+50            android:name="fpt.aptech.webruou.ResetPasswordKhachHangActivity"
+50-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:41:13-59
+51            android:exported="false" />
+51-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:42:13-37
+52        <activity
+52-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:43:9-45:40
+53            android:name="fpt.aptech.webruou.AddKhachHangActivity"
+53-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:44:13-49
+54            android:exported="false" />
+54-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:45:13-37
+55        <activity
+55-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:46:9-48:40
+56            android:name="fpt.aptech.webruou.ChangeInformationKhachHangActivity"
+56-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:47:13-63
+57            android:exported="false" />
+57-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:48:13-37
+58        <activity
+58-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:49:9-51:40
+59            android:name="fpt.aptech.webruou.ChangePasswordKhachHangActivity"
+59-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:50:13-60
+60            android:exported="false" />
+60-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:51:13-37
+61        <activity
+61-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:52:9-54:40
+62            android:name="fpt.aptech.webruou.LoginKhachHangActivity"
+62-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:53:13-51
+63            android:exported="false" />
+63-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:54:13-37
+64        <activity
+64-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:55:9-67:20
+65            android:name="fpt.aptech.webruou.MainActivity"
+65-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:56:13-41
+66            android:exported="true" >
+66-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:57:13-36
+67            <intent-filter>
+67-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:58:13-62:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:59:17-69
+68-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:59:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:61:17-77
+70-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:61:27-74
+71            </intent-filter>
+72
+73            <meta-data
+73-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:64:13-66:60
+74                android:name="android.app.lib_name"
+74-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:65:17-52
+75                android:resource="@xml/network_security" />
+75-->C:\FPT_SEM4\WebRuou\app\src\main\AndroidManifest.xml:66:17-57
+76        </activity>
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\anhth\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\anhth\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+80            android:authorities="fpt.aptech.webruou.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\anhth\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\anhth\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\anhth\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\anhth\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\anhth\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\anhth\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\anhth\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\anhth\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>

@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Payment";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="page-content">
+                <div class="gaming-library">
+
+                    <div class="col-lg-12">
+                        <div class="heading-section">
+                            <h4><em>Payment orders </em>@ViewBag.UserName_</h4>
+                            <a style="color:yellow; font-size:large">Pay with Zalo pay</a>
+                        </div>
+                        <br />
+                        <div>
+                            <ul>
+                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">Address:</a>
+                                <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">@ViewBag.Address_</a></li>
+                            </ul>
+                        </div>
+                        <br />
+                        <div>
+                            <ul>
+                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">Email:</a>
+                                <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">@ViewBag.Email_</a></li>
+                            </ul>
+                        </div>
+                        <br />
+                        <div>
+                            <ul>
+                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">Phone:</a>
+                                <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">@ViewBag.Phone_</a></li>
+                            </ul>
+                        </div>
+                        <br />
+                        <div>
+                            <ul>
+                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">The number of products:</a>
+                                <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">@ViewBag.SoLuong</a></li>
+                            </ul>
+                        </div>
+                        <br />
+                        <div>
+                            <ul>
+                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">Total cart value:</a>
+                                <li><a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">@ViewBag.TongTien VND</a></li>
+                            </ul>
+                        </div>
+                        <br />
+                        <form asp-action="ThanhToan" asp-controller="KhachHang" enctype="multipart/form-data" method="get">
+                            <div>
+                                <ul>
+                                    <input name="pttt" value="Zalo" hidden>
+                                    <p>
+                                    <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">Payment by phone number of Wine Gourmet:&nbsp;&nbsp;&nbsp;</a>
+                                    <a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">0909009009</a>
+                                    </p>
+                                    <br />
+                                    <input type="submit" value="Payment confirmation" style="font-size:15px" class="btn btn-secondary btn-sm" />
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

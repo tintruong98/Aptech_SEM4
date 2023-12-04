@@ -1,0 +1,158 @@
+﻿@model IEnumerable<App_WebRuou.Models.SanPhamFavourite>
+
+@{
+    ViewData["Title"] = "ListSanPham";
+}
+<div class="most-popular">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="search-input">
+                <form asp-action="ListSanPham" asp-controller="KhachHang" enctype="multipart/form-data" method="get" name="form3">
+                    <input type="text" name="varLocal" placeholder="by Name" style="color:#ec6090; font-size:14px" />
+                    <a style="color:#ec6090; font-size:14px">&nbsp;&nbsp;Price from&nbsp;&nbsp;</a>
+                    <input type="number" name="Min" style="font-size:14px;width:130px"/>
+                    <a style="color:#ec6090; font-size:14px">&nbsp;&nbsp;to&nbsp;&nbsp;</a>
+                    <input type="number" name="Max" style="font-size:14px;width:130px"/>&nbsp;&nbsp;
+                    <input type="submit" value="Search" class="btn btn-secondary btn-sm" style="font-size:14px" /><p>
+                </form>
+            </div>
+            <br />
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="item">
+                            <table width="100%" cellpadding="10">
+                                <tr>
+                                    <td width="25%">
+                                        <a href="@Url.Action("DetailsSanPham", "KhachHang", new {idsanpham=item.Id})"><img src="~/@item.UrlImage" class="img-fluid" alt=""></a>
+                                    </td>
+                                    <td with="75%">
+                                        <p><a href="@Url.Action("DetailsSanPham", "KhachHang", new {idsanpham=item.Id})" style="color:white; font-size:20px"><b>@item.Name</b></a></p>
+                                        <center>
+                                            <p><a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large"><b>@item.Price.ToString("N").Substring(0,@item.Price.ToString("N").Length-3) VND</b></a></p>
+                                        </center>
+                                        <p><a style="color:gainsboro; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:13px">@item.Soluong.ToString() products left</a></p>
+                                        <p>
+                                            @if (item.Evaluate == 5)
+                                            {
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                            }
+                                            @if (item.Evaluate == 4)
+                                            {
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                            }
+                                            @if (item.Evaluate == 3)
+                                            {
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                            }
+                                            @if (item.Evaluate == 2)
+                                            {
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                            }
+                                            @if (item.Evaluate == 1)
+                                            {
+                                                <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                            }
+                                            @if (item.Evaluate == 0)
+                                            {
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                                <i class="fa fa-star fa-1" style="color:g"></i>
+                                            }
+                                            <a style="color:gainsboro; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sold @item.Tongmua</a>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<div class="container">
+    <div class="page-content">
+        <div class="col-12">
+            <div class="search-input">
+                <form asp-action="ListSanPham" asp-controller="KhachHang" enctype="multipart/form-data" method="get" name="form3">
+                    <a style="color:#ec6090; font-size:17px">Search by product name&nbsp;&nbsp;</a>
+                    <input type="text" name="varLocal" />
+                    <p></p><a style="color:#ec6090; font-size:17px">Search by product price&nbsp;&nbsp;</a>
+                    <input type="number" name="Min" />
+                    <a style="color:#ec6090; font-size:17px">&nbsp;&nbsp;to&nbsp;&nbsp;</a>
+                    <input type="number" name="Max" />&nbsp;&nbsp;
+                    <input type="submit" value="Search" class="btn btn-secondary" /><p>
+                </form>
+            </div>
+        </div>
+        <div class="gaming-library">
+            <table width="100%" cellpadding="5">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td width="25%">
+                            <img src="~/@item.UrlImage" width="250" height="300" alt="">
+                        </td>
+                        <td width="75%">
+                            <p><a style="color:#ec6090; font-size:25px"><b>@item.Name</b></a></p>
+                            <p class="text-justify"><a style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:15px">@item.Description</a></p>
+                            <center>
+                                <p><a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large"><b>@item.Price.ToString("N").Substring(0,@item.Price.ToString("N").Length-3) VND</b></a></p>
+                            </center>
+                            <p><a style="color:gainsboro; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:13px">@item.Soluong.ToString() products left</a></p>
+                            @if (string.IsNullOrEmpty(ViewBag.UserName_))
+                            {
+                                <center>
+                                    <a href="@Url.Action("Login", "KhachHang")"><i class="fas fa-shopping-cart fa-2xl" style="color: #ec6090;"></i></a>
+                                    <a href="@Url.Action("Login", "KhachHang")">
+                                        <span style="font-size:12px">Add to cart </span>
+                                    </a>
+                                    <p><a style="color:white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:small">Login to perform add to cart function</a></p>
+                                </center>
+                            }
+                            else
+                            {
+                                <center>
+                                    <a href="@Url.Action("AddToCart", "KhachHang", new {varLocal=item.Id})"><i class="fas fa-shopping-cart fa-2xl" style="color: #ec6090;"></i></a>
+                                    <a href="@Url.Action("AddToCart", "KhachHang",new {varLocal=item.Id})">
+                                        <span style="font-size:12px">Add to cart </span>
+                                    </a>
+                                </center>
+                            }
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>*@
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

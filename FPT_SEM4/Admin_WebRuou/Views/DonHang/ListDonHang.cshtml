@@ -1,0 +1,136 @@
+﻿@model IEnumerable<Admin_WebRuou.Models.DonHangDetails>
+
+@{
+    ViewData["Title"] = "ListDonHang";
+}
+<div class="container">
+    <div class="page-content">
+        <div class="heading-section">
+            <h4>Order List</h4>
+        </div>
+        <!-------------------------->
+        <div>
+            <form asp-action="ListDonHang" asp-controller="DonHang">
+                <a href="@Url.Action("Administration", "Home")">
+                    <span class="btn btn-success btn-sm" style="font-size:14px">Back</span>
+                </a>
+                <input type="text" name="iddonhang" placeholder="By Id" style="font-size:14px;width:50px" />
+                <select name="trangthaigh" style="font-size:14px">
+                    <option value="">by delivery</option>
+                    <option value="0">Preparing</option>
+                    <option value="1">Delivering</option>
+                    <option value="2">Delivered</option>
+                    <option value="3">Reject</option>
+                </select>
+                <select name="dathanhtoan" style="font-size:14px">
+                    <option value="">by payment</option>
+                    <option value="True">Paid</option>
+                    <option value="False">Unpaid</option>
+                </select>
+                <input type="text" name="username" placeholder="By Name" style="font-size:14px;width:300px" />
+                <input type="text" name="phone" placeholder="By Phone" style="font-size:14px;width:150px" />
+                <input type="submit" value="Search" class="btn btn-info btn-sm" style="font-size:14px" />
+            </form>
+        </div>
+        <br />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <a style="font-size:14px;color:white">Id</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Customer name</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Phone</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Payment</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Booking date</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Delivery date</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Quantity</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Total order</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Delivery Status</a>
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Id</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.UserName</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Phone</a>
+                        </td>
+                        <td>
+                            @if (item.DaThanhToan)
+                            {
+                                <a style="font-size:14px;color:white">Paid</a>
+                            }
+                            else
+                            {
+                                <a style="font-size:14px;color:white">Unpaid</a>
+                            }
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.NgayDat</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.NgayGiao</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.SoLuong</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.TongTien.ToString("N").Substring(0,item.TongTien.ToString("N").Length-3)</a>
+                        </td>
+                        <td>
+                            @if (item.TrangThaiGH == 0)
+                            {
+                                <a style="font-size:14px;color:white">Preparing</a>
+                            }
+                            @if (item.TrangThaiGH == 1)
+                            {
+                                <a style="font-size:14px;color:white">Delivering</a>
+                            }
+                            @if (item.TrangThaiGH == 2)
+                            {
+                                <a style="font-size:14px;color:white">Delivered</a>
+                            }
+                            @if (item.TrangThaiGH == 3)
+                            {
+                                <a style="font-size:14px;color:white">Reject</a>
+                            }
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Edit", "DonHang", new {varLocal = item.Id,username=item.UserName,email=item.Email,address=item.Address,phone=item.Phone })">
+                                <span class="btn btn-warning btn-sm" style="font-size:14px">Edit</span>
+                            </a>
+                            <a href="@Url.Action("Delete", "DonHang", new {varLocal = item.Id })">
+                                <span class="btn btn-danger btn-sm" style="font-size:14px">Delete</span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <!-------------------------->
+    </div>
+</div>

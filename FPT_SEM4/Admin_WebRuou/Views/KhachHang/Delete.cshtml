@@ -1,0 +1,39 @@
+﻿@model Admin_WebRuou.Models.KhachHang
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="container">
+    <div class="page-content">
+        <div class="heading-section">
+            <h4>Delete customer account</h4>
+        </div>
+        <!-------------------------->
+        <br />
+        <h5>Are you sure you want to delete this customer?</h5>
+        <h5 style="color:red">@ViewBag.msg</h5>
+        <br />
+        <div>
+            <dl class="row">
+                <div class="col-sm-12">
+                    <a style="font-size:14px;color:white">@ViewBag.username</a>
+                </div>
+                <br />
+                <div class="col-sm-12">
+                    <a style="font-size:14px;color:white">@ViewBag.email</a>
+                </div>
+            </dl>
+            <br />
+            <form asp-action="Delete" enctype="multipart/form-data" method="post">
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="UserName" />
+                <input type="hidden" asp-for="Email" />
+                <input type="submit" value="Delete" class="btn btn-danger btn-sm" style="font-size:14px" onclick="return confirm('Are you sure you want to delete?')" />
+                <a href="@Url.Action("ListKhachHang", "KhachHang")">
+                    <span class="btn btn-primary btn-sm" style="font-size:14px">Back</span>
+                </a>
+            </form>
+        </div>
+        <!-------------------------->
+    </div>
+</div>

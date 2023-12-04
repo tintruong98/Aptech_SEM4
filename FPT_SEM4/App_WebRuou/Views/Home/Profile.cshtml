@@ -1,0 +1,77 @@
+﻿@model App_WebRuou.Models.PartialView1
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-content">
+                <!-- ***** Banner Start ***** -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="main-profile ">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="~/assets/images/profile.jpg" alt="" style="border-radius: 23px;">
+                                </div>
+                                <div class="col-lg-4 align-self-center">
+                                    <div class="main-info header-text">
+                                        <span>@ViewBag.UserName_</span>
+                                        <br />
+                                        <div>
+                                            <p>
+                                                <a style="color:#ec6090; font-size:13px">Email:</a>
+                                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:13px">@ViewBag.Email_</a>
+                                            </p>
+
+                                            <p>
+                                                <a style="color:#ec6090; font-size:13px">Address:</a>
+                                                <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:13px">@ViewBag.Address_</a></li>
+                                            </p>
+
+                                            <p>
+                                                <a style="color:#ec6090; font-size:13px">Phone:</a>
+                                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:13px">@ViewBag.Phone_</a>
+                                            </p>
+                                        </div>
+                                        <div class="main-border-button">
+                                            <a href="@Url.Action("Logout", "KhachHang")">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 align-self-center">
+                                    <ul>
+                                        <li><a href="@Url.Action("ChangePassword", "KhachHang",new {varLocal=ViewBag.Email_})" style=" color:gainsboro">Change the password</a></li>
+                                        <li><a href="@Url.Action("ChangeInfo", "KhachHang",new {varLocal=ViewBag.Email_})" style="color:gainsboro">Change information</a></li>
+@*                                        @if (ViewBag.UserName_ == "Administrator" || ViewBag.Email_ == "admin@gmail.com")
+                                        {
+                                            <li><a href="@Url.Action("Quantri", "KhachHang")" style="color:gainsboro">System Administration</a></li>
+                                        }
+*@                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Banner End ***** -->
+                @await Html.PartialAsync("DanhgiaPartialView",Model.pv2.ToList());
+                @await Html.PartialAsync("DonHangPartialView",Model.pv1.ToList());
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<!-- Bootstrap core JavaScript -->
+<script src="~/vendor/jquery/jquery.min.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<script src="~/assets/js/isotope.min.js"></script>
+<script src="~/assets/js/owl-carousel.js"></script>
+<script src="~/assets/js/tabs.js"></script>
+<script src="~/assets/js/popup.js"></script>
+<script src="~/assets/js/custom.js"></script>
+
+
+

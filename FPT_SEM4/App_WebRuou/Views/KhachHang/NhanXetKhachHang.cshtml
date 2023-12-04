@@ -1,0 +1,72 @@
+﻿@model IEnumerable<App_WebRuou.Models.FeedBackDetails>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-6 col-sm-6">
+            <div class="item">
+                <table width="100%" cellpadding="10">
+                    <tr>
+                        <td>
+                            <p>
+                                <a style="color:yellow ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px">@item.UserName</a>
+                            </p>
+                            <p>
+                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:14px">@item.Contents</a>
+                            </p>
+                            <p>
+                                @if (item.Evaluate == 5)
+                                {
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                }
+                                @if (item.Evaluate == 4)
+                                {
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                }
+                                @if (item.Evaluate == 3)
+                                {
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                }
+                                @if (item.Evaluate == 2)
+                                {
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                }
+                                @if (item.Evaluate == 1)
+                                {
+                                    <i class="fa fa-star fa-1" style="color:yellow"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                }
+                                @if (item.Evaluate == 0)
+                                {
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:gainsboro"></i>
+                                    <i class="fa fa-star fa-1" style="color:g"></i>
+                                }
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+</div>

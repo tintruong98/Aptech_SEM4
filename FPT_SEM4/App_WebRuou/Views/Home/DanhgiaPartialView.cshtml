@@ -1,0 +1,42 @@
+﻿@model IEnumerable<App_WebRuou.Models.SanPhamFavourite>
+<!-- ***** Most Popular Start ***** -->
+<div class="most-popular">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="heading-section">
+                <h4>Today's<em> Most Popular Wines</em></h4>
+            </div>
+            <div class="row">
+                @if (true)
+                {
+                    int dem = 0;
+                    @foreach (var item in Model)
+                    {
+                        dem++;
+                        if (dem<=8)
+                        {
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="item">
+                                    <a href="@Url.Action("DetailsSanPham", "KhachHang",new {idsanpham=item.Id})">
+                                        <img src="~/@item.UrlImage" alt="">
+                                    </a>
+                                    <h4>@item.Name<br><span>@item.Soluong products left</span></h4>
+                                    <ul>
+                                        <li><i class="fa fa-star"></i> @item.Evaluate</li>
+                                        <li><i class="fa fa-shopping-cart"></i> @item.Tongmua</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        }
+                    }
+                }
+                <div class="col-lg-12">
+                    <div class="main-button">
+                        <a href="@Url.Action("ListSanPham", "KhachHang")">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Most Popular End ***** -->

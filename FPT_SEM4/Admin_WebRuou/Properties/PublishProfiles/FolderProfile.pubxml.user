@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\DATA_WEB\Admin_WebRuou</_PublishTargetUrl>
+    <History>True|2023-04-16T16:16:15.3627860Z;True|2023-04-16T15:39:08.5813164+07:00;True|2023-04-16T03:54:05.5876544+07:00;True|2023-04-15T13:58:46.2590764+07:00;True|2023-04-15T13:56:10.7522398+07:00;True|2023-04-15T13:43:36.4588488+07:00;True|2023-04-15T01:40:38.8129453+07:00;True|2023-04-15T00:42:38.7581378+07:00;True|2023-04-14T22:42:21.2769383+07:00;True|2023-04-13T23:56:11.9799893+07:00;True|2023-04-13T15:41:22.4698096+07:00;True|2023-04-13T14:49:56.8688519+07:00;True|2023-04-13T14:49:47.0971457+07:00;True|2023-04-13T10:51:37.2970192+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

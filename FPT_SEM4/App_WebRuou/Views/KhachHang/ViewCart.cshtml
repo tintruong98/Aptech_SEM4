@@ -1,0 +1,98 @@
+﻿@model IEnumerable<App_WebRuou.Models.Cart>
+
+@{
+    ViewData["Title"] = "ViewCart";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-content">
+                <div class="gaming-library">
+                    <div class="col-lg-12">
+                        <div class="heading-section">
+                            <h4><em>The shopping cart you </em>selected</h4>
+                        </div>
+                        <div>
+                            <center>
+                                <ul>
+                                    <a style="color:white; font-size:large">Total cart value:</a>
+                                    <li><a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large"><b>@ViewBag.Tonggiatri VND</b></a></li>
+
+                                    @if (string.IsNullOrEmpty(ViewBag.Tonggiatri) || ViewBag.Tonggiatri == "0")
+                                    {
+                                        <a href="#">
+                                            <span class="btn btn-secondary ">Payment</span>
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a href="@Url.Action("PhuongThucThanhToan", "KhachHang",new {idkhachhang=ViewBag.Id_})"><span class="btn btn-secondary btn-sm " style="font-size:15px">Payment</span></a>
+                                        <a href="@Url.Action("ListSanPham", "KhachHang")"><span class="btn btn-success btn-sm " style="font-size:15px">Buy more</span></a>
+                                    }
+                                </ul>
+                            </center>
+                        </div>
+                        <br />
+                        <table width="100%" cellpadding="5">
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td width="30%" align="center">
+                                        <div>
+                                            <ul>
+                                                <li><img src="~/@item.Url" width="300" height="330" alt=""></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td width="70%" align="center">
+                                        <div>
+                                            <ul>
+                                                <h4 style="color:#ec6090">@item.Ten</h4>
+                                            </ul>
+                                        </div>
+                                        <br>
+                                        <div>
+                                            <ul>
+                                                <a style="color:white; font-size:large">Unit price:</a>
+                                                <li><a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large">@item.DonGia.ToString("N").Substring(0,@item.DonGia.ToString("N").Length-3) VND</a></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul>
+                                                <a style="color:white; font-size:large">Into money:</a>
+                                                <li><a style="color:#ec6090 ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large">@item.Tongtien.ToString("N").Substring(0,@item.Tongtien.ToString("N").Length-3) VND</a></li>
+                                            </ul>
+                                        </div>
+                                        <br>
+                                        <div>
+                                            <ul>
+                                                <a href="@Url.Action("ViewCart", "KhachHang",new {idkhachhang=item.IdKhachHang,idsanpham=item.IdSanPham,gtMinMax="Min"})">
+                                                    <span class="btn btn-secondary">-</span>
+                                                </a>
+                                                <a style="color:white ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:large">&nbsp;&nbsp;&nbsp;&nbsp; @item.SoLuong &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                                <a href="@Url.Action("ViewCart", "KhachHang",new {idkhachhang=item.IdKhachHang,idsanpham=item.IdSanPham,gtMinMax="Max"})">
+                                                    <span class="btn btn-secondary">+</span>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                        <br>
+                                        <div>
+                                            <ul>
+                                                <a href="@Url.Action("ViewCart", "KhachHang",new {idkhachhang=item.IdKhachHang,idsanpham=item.IdSanPham,gtMinMax="Del"})" onclick="return confirm('Are you sure you want to delete?')"><i class="fa fa-trash-alt fa-2xl" style="color: #ec6090;"></i><span style="font-size:12px">&nbsp;&nbsp;Delete</span></a>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

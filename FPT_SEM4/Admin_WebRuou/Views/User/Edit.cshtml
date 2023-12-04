@@ -1,0 +1,64 @@
+﻿@model Admin_WebRuou.Models.User
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container">
+    <div class="page-content">
+        <div class="heading-section">
+            <h4>Change the account information</h4>
+        </div>
+        <!-------------------------->
+        <a href="@Url.Action("ListUser", "User")">
+            <span class="btn btn-success btn-sm" style="font-size:14px">Back</span>
+        </a>
+        <hr />
+        <h5 style="color:red">@ViewBag.msg</h5>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form asp-action="Edit" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <div class="form-group">
+                        <label asp-for="UserName" class="control-label" style="color:white"></label>
+                        <input asp-for="UserName" class="form-control" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Email" class="control-label" style="color:white"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label" style="color:white"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    @if (ViewBag.UserName_ == "Administrator" || ViewBag.UserName_ == "ADMINISTRATOR")
+                    {
+                        <div class="form-group">
+                            <label asp-for="Status" class="control-label" style="color:white"></label>
+                            <input asp-for="Status" class="form-control" />
+                            <span asp-validation-for="Status" class="text-danger" style="width:70px"></span>
+                        </div>
+                    }
+                    else
+                    {
+                        <input class="form-control" asp-for="Status" hidden />
+                    }
+                    <div class="form-group">
+                        <input type="submit" value="Save" name="EditReset" class="btn btn-warning btn-sm" style="font-size:14px" />
+                        <input type="submit" value="Password recovery" name="EditReset" style="font-size:14px" class="btn btn-success btn-sm" onclick="return confirm('Are you sure you want to reset password?')" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-------------------------->
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

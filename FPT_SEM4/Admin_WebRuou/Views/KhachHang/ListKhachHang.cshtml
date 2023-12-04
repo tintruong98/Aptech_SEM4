@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Admin_WebRuou.Models.KhachHang>
+
+@{
+    ViewData["Title"] = "ListKhachHang";
+}
+<div class="container">
+    <div class="page-content">
+        <div class="heading-section">
+            <h4>List of customers</h4>
+        </div>
+        <!-------------------------->
+        <div>
+            <form asp-action="ListKhachHang" asp-controller="KhachHang">
+                <a href="@Url.Action("Administration", "Home")">
+                    <span class="btn btn-success btn-sm" style="font-size:14px">Back</span>
+                </a>
+                <input type="text" name="varLocal" style="font-size:14px" />
+                <input type="submit" value="Search" class="btn btn-info btn-sm" style="font-size:14px" />
+            </form>
+        </div>
+        <br />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <a style="font-size:14px;color:white">Id</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">UserName</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Email</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Address</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Phone</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Status</a>
+                    </th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Id</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.UserName</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Email</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Address</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Phone</a>
+                        </td>
+                        <td>
+                            @if (item.Status == 1)
+                            {
+                                <a style="font-size:14px;color:white">Active</a>
+                            }
+                            else
+                            {
+                                <a style="font-size:14px;color:white">Inactive</a>
+                            }
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Edit", "KhachHang", new {varLocal = item.Id })">
+                                <span class="btn btn-warning btn-sm" style="font-size:14px">Edit</span>
+                            </a>
+                            <a href="@Url.Action("Delete", "KhachHang", new {varLocal = item.Id })">
+                                <span class="btn btn-danger btn-sm" style="font-size:14px">Delete</span>
+                            </a>
+                            <a href="@Url.Action("XemDonHang", "KhachHang", new {trangthaiGH = 2,idkhachhang = item.Id, username=item.UserName })">
+                                <span class="btn btn-success btn-sm" style="font-size:14px">Order</span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <!-------------------------->
+    </div>
+</div>

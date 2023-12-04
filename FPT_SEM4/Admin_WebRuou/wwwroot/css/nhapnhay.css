@@ -1,0 +1,131 @@
+﻿@-webkit-keyframes my {
+    0% {
+        color: #0000FF;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #0000FF;
+    }
+}
+
+@-moz-keyframes my {
+    0% {
+        color: #0000FF;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #0000FF;
+    }
+}
+
+@-o-keyframes my {
+    0% {
+        color: #0000FF;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #0000FF;
+    }
+}
+
+@keyframes my {
+    0% {
+        color: #0000FF;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #0000FF;
+    }
+}
+
+.text-animation {
+    background: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-animation: my 1000ms infinite;
+    -moz-animation: my 1000ms infinite;
+    -o-animation: my 1000ms infinite;
+    animation: my 1000ms infinite;
+}
+
+@-webkit-keyframes my2 {
+    0% {
+        color: #FF0000;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #FF0000;
+    }
+}
+
+@-moz-keyframes my2 {
+    0% {
+        color: #FF0000;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #FF0000;
+    }
+}
+
+@-o-keyframes my2 {
+    0% {
+        color: #FF0000;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #FF0000;
+    }
+}
+
+@keyframes my2 {
+    0% {
+        color: #FF0000;
+    }
+
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #FF0000;
+    }
+}
+
+.text2-animation {
+    background: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-animation: my2 700ms infinite;
+    -moz-animation: my2 700ms infinite;
+    -o-animation: my2 700ms infinite;
+    animation: my2 700ms infinite;
+}

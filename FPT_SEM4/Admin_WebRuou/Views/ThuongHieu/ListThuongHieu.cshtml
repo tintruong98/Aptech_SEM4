@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Admin_WebRuou.Models.ThuongHieu>
+
+@{
+    ViewData["Title"] = "ListThuongHieu";
+}
+<div class="container">
+    <div class="page-content">
+        <div class="heading-section">
+            <h4>List of brands</h4>
+        </div>
+        <!-------------------------->
+        <div>
+            <form asp-action="ListThuongHieu" asp-controller="ThuongHieu">
+                <a href="@Url.Action("Administration", "Home")">
+                    <span class="btn btn-success btn-sm" style="font-size:14px">Back</span>
+                </a>
+                <a href="@Url.Action("Create", "ThuongHieu")">
+                    <span class="btn btn-primary btn-sm" style="font-size:14px">Create new</span>
+                </a>
+                <input type="text" name="varLocal" style="font-size:14px" />
+                <input type="submit" value="Search" class="btn btn-info btn-sm" style="font-size:14px" />
+            </form>
+        </div>
+        <br />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <a style="font-size:14px;color:white">Id</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Name</a>
+                    </th>
+                    <th>
+                        <a style="font-size:14px;color:white">Description</a>
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Id</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Name</a>
+                        </td>
+                        <td>
+                            <a style="font-size:14px;color:white">@item.Description</a>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Edit", "ThuongHieu", new {varLocal = item.Id })">
+                                <span class="btn btn-warning btn-sm" style="font-size:14px">Edit</span>
+                            </a>
+                            <a href="@Url.Action("Delete", "ThuongHieu", new {varLocal = item.Id })">
+                                <span class="btn btn-danger btn-sm" style="font-size:14px">Delete</span>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <!-------------------------->
+    </div>
+</div>
